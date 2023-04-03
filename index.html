@@ -30,6 +30,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/bars.css" rel="stylesheet" />
+    <link href="css/landing.css" rel="stylesheet" />
     <script defer src="js/animate.js"></script>
   </head>
   <body id="page-top">
@@ -118,20 +119,25 @@
           src="assets/img/avatar.jpeg"
           alt="..."
           style="border-radius: 50%; height: 240px"
+          id="profile-pic"
         />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading mb-0">
+        <h1 class="masthead-heading mb-0 slide" id="name-intro">
           Hi, I'm <span style="color: var(--bs-primary)">Isaac Shaker</span>
         </h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div
-            class="divider-custom-line"
+            class="divider-custom-line slide"
+            id="intro-divider"
             style="background-color: var(--bs-primary)"
           ></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">
+        <p
+          class="masthead-subheading font-weight-light mb-0 slide"
+          id="filed-of-study"
+        >
           Computer Engineer - Software Developer
         </p>
       </div>
@@ -305,8 +311,8 @@
             <p class="lead">
               Hello, my name is Isaac Shaker. I am a first-year student studying
               Computer Engineering at the University of Pittsburgh.<br /><br />
-              I value communication and continously working towards learn new
-              skills, especially from others.
+              I value challenging myself and continously working towards
+              learning new skills, especially from others.
             </p>
           </div>
           <div class="col-lg-4 me-auto">
@@ -730,7 +736,7 @@
                     <a
                       href="https://soundcloud.com/isaac-shaker-946554463/interview-software-engineer/s-adnEoAPZ1s8?si=d7d069e6f3e54a428e007aa60da5808a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                       target="_blank"
-                      >Listen here</a
+                      >Listen Here</a
                     >
                   </p>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
