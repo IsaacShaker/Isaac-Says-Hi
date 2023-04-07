@@ -35,7 +35,6 @@
     }
 }
 
-
 .progress-line-animation{
     animation: bar-fill 1.5s cubic-bezier(1,0,0.5,1) forwards;
 }
